@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australian Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for hero image */
+        .hero-image {
+            width: 100%;
+            height: 300px; /* Adjust height as needed */
+            background-image: url('hero.jpg'); /* Replace 'hero.jpg' with your image path */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: rgb(14, 9, 9);
+            font-size: 2.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Australian Adventure</h1>
+        <nav>
+            <a href="home.html" target="content">Home</a>
+            <a href="about.html" target="content">About</a>
+            <a href="contact.html" target="content">Contact</a>
+            <a href="frameset.html" target="_top">All</a>
+        </nav>
+    </header>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            Explore the Beauty of Australia
+        </div>
+    </div>
+
+    <main>
+        <iframe name="content" src="home.html"></iframe>
+
+        <!-- Fun Facts Section -->
+        <section class="fun-facts">
+            <h2>Fun Facts</h2>
+            <div class="fun-fact">
+                <h3>Kangaroo Fact</h3>
+                <p>Kangaroos cannot walk backwards!</p>
+            </div>
+            <div class="fun-fact">
+                <h3>Koala Fact</h3>
+                <p>Koalas sleep around 18 hours a day!</p>
+            </div>
+            <div class="fun-fact">
+                <h3>Australian Wildlife</h3>
+                <p>Australia is home to some of the world's most unique animals like the platypus!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Australian Adventure</p>
+    </footer>
+</body>
+</html>
